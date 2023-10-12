@@ -1,0 +1,117 @@
+@font-face {
+    font-family: svn;
+    src: url(/fonts/svn-gilroy-cufonfonts/SVNGilroy\ Bold.otf);
+}
+body{
+
+    font-family: svn;
+
+    .knowledge{
+        padding-top: 50px;
+        background: #FDFDFD;
+        .knowledge1
+        {
+            width: 80%;
+            margin: auto;
+            
+            .whatsNew
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+    
+                .new{
+                   h1{
+                    color: black;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                   } 
+                   p{
+                    color: #003459;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 36px;
+    
+                   }
+                }
+                .new2{
+    
+                    button{
+                        width: 151px;
+                        height: 44px;
+                        border-radius: 57px;
+                        border: 1.5px solid #003459;
+                        gap: 8px;
+                        background: transparent;
+                        padding: 12px, 28px, 12px, 28px;
+    
+                        a{
+                            text-decoration: none;
+                            color: #003459;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+    
+                        }
+                    }
+                }
+            }
+        }
+        .grid-container
+        {
+            width: 100%;
+            margin: 50px auto;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 33% 33% 33%;
+            background:#FDFDFD;
+         
+            .grid-item
+            {
+                margin: 10px;
+                border-radius: 12px;
+                padding: 8px;
+                box-shadow: 0 0 15px rgb(184, 184, 184);
+            }
+            .item1{
+                img{
+                    border-radius: 12px;
+                }
+                button{
+                    background: #00A7E7;
+                    color: white;
+                    border-radius: 28px;
+                    width: 89px;
+                    height: 20px;
+                    border: none;
+
+                    a{
+                        color: #FDFDFD;
+                        font-weight: 700;
+                        font-size: 10px;
+                        line-height: 16px;
+                        text-decoration: none;
+                        font-family: svn;
+                    }
+                }
+                h1{
+                    color: #00171F;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-family: svn;
+                }
+                p{
+                    color:#242B33;
+                    font-weight: 200;
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-family: svn;
+                }
+                
+            }
+        }
+    }
+}

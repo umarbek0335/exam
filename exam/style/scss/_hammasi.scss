@@ -1,0 +1,99 @@
+@font-face {
+    font-family: svn;
+    src: url(/fonts/svn-gilroy-cufonfonts/SVNGilroy\ Bold.otf);
+}
+body
+{
+    font-family: svn;
+
+    .partners
+    {
+        padding: 30px 0px;
+        .partners1
+        {
+            width: 80%;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+
+            .pet1{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 20px 0px;
+                h1{
+                    color: #000000;
+                    font-size: 16px;
+                    line-height: 31px;
+                    font-weight: 500;
+
+                    span{
+                        color: #003459;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 36px;
+                    }
+                }
+                button{
+                    width: 201px;
+                    height: 44px;
+                    border-radius: 57px;
+                    border: 1.5px solid #003459;
+                    background: transparent;
+
+                    a{
+                        color: #003459;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-family: svn;
+                    }
+                }
+            }
+            .pet2
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center ;
+                gap: 20px;
+                .img1{
+                    width: 88px;
+                    height: 64px;
+                    
+                }
+                .img2{
+                    width: 114px;
+                    height: 114px;
+                    
+                }
+                .img3{
+                    width: 104px;
+                    height: 46px;
+                    
+                }
+                .img4{
+                    width: 92px;
+                    height: 64px;
+                    
+                }
+                .img5{
+                    width: 92px;
+                    height: 92px;
+                    
+                }
+                .img6{
+                    width: 130px;
+                    height: 56px;
+                    
+                }
+                .img7{
+                    width: 116px;
+                    height: 72px;
+                    
+                }
+            }
+        }
+    }
+}

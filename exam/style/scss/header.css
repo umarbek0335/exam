@@ -1,0 +1,258 @@
+@font-face {
+  font-family: svn;
+  src: url(/fonts/svn-gilroy-cufonfonts/SVNGilroy\ Bold.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+body header .showcase7 {
+  position: absolute;
+  top: -90%;
+  left: -20%;
+  z-index: -1;
+}
+body header .container {
+  width: 80%;
+  margin: auto;
+}
+body header .container .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 0px;
+  font-family: svn;
+  width: 100%;
+}
+body header .container .navbar a {
+  text-decoration: none;
+  color: #003459;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: svn;
+}
+body header .container .navbar .input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 280px;
+  height: 44px;
+  background: white;
+  border-radius: 46px;
+  gap: 12px;
+  padding: 12px, 20px, 12px, 16px;
+}
+body header .container .navbar .input .fa-magnifying-glass {
+  font-size: 18px;
+  color: #99A2A5;
+  margin-left: 10px;
+}
+body header .container .navbar .input input {
+  border: none;
+  outline: none;
+  border-radius: 46px;
+}
+body header .container .navbar .input input::-moz-placeholder {
+  color: #99A2A5;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+body header .container .navbar .input input::placeholder {
+  color: #99A2A5;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+body header .container .navbar button {
+  width: 203px;
+  height: 44px;
+  border-radius: 57px;
+  gap: 10px;
+  padding: 14px, 28px, 10px, 28px;
+  border: none;
+  background: #003459;
+}
+body header .container .navbar button a {
+  color: white;
+  text-decoration: none;
+}
+body header .container .navbar .dropdown {
+  float: left;
+  overflow: hidden;
+  width: 11%;
+}
+body header .container .navbar .dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 5px 5px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+body header .container .navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+body header .container .navbar .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+body header .container .navbar .dropdown-content a:hover {
+  background-color: #ddd;
+}
+body header .container .navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+body header .container .header {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 12vh;
+}
+body header .container .header .header-left {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  gap: 10px;
+  padding-top: 15vh;
+  position: relative;
+}
+body header .container .header .header-left .showcase1 {
+  position: absolute;
+  top: 26%;
+  left: -1%;
+  z-index: 1;
+}
+body header .container .header .header-left .showcase8 {
+  position: absolute;
+  top: 115%;
+  left: -28%;
+}
+body header .container .header .header-left h1 {
+  color: #002A48;
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 68px;
+  font-family: svn;
+  z-index: 10;
+}
+body header .container .header .header-left h1 span {
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+  font-family: svn;
+  z-index: 10;
+}
+body header .container .header .header-left p {
+  color: #242B33;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: svn;
+  padding: 15px 0px;
+}
+body header .container .header .header-left .search {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+body header .container .header .header-left .search .button1 {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  padding: 14px, 28px, 10px, 28px;
+  gap: 10px;
+  border: 1.5px solid #003459;
+  background: transparent;
+}
+body header .container .header .header-left .search .button1 a {
+  text-decoration: none;
+  color: #003459;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+body header .container .header .header-left .search .button1 a .fa-circle-play {
+  font-size: 18px;
+  margin-left: 5px;
+}
+body header .container .header .header-left .search .btn2 {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  padding: 14px, 28px, 10px, 28px;
+  gap: 8px;
+  border: 1.5px solid #003459;
+  background: #003459;
+}
+body header .container .header .header-left .search .btn2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+body header .container .header .header-left .search .btn2 a .fa-circle-play {
+  font-size: 18px;
+}
+body header .container .header .header-right {
+  width: 57%;
+  position: relative;
+}
+body header .container .header .header-right img {
+  position: absolute;
+  top: -9%;
+  right: -18%;
+}
+body header .container .header .header-right .showcase2 {
+  position: absolute;
+  top: 0%;
+  left: 12%;
+}
+body header .container .header .header-right .showcase3 {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+}
+body header .container .header .header-right .showcase4 {
+  position: absolute;
+  top: 12%;
+  left: 8%;
+  z-index: 25;
+}
+body header .container .header .header-right .showcase5 {
+  position: absolute;
+  z-index: -2;
+  top: 35%;
+  left: 0%;
+}
+body header .container .header .header-right .showcase6 {
+  position: absolute;
+  z-index: -1;
+  top: 25%;
+  left: 0%;
+}/*# sourceMappingURL=header.css.map */

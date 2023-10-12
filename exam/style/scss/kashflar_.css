@@ -1,0 +1,115 @@
+@font-face {
+  font-family: svn;
+  src: url(/fonts/svn-gilroy-cufonfonts/SVNGilroy\ Bold.otf);
+}
+body {
+  font-family: svn;
+}
+body .explore .explore1 {
+  width: 80%;
+  margin: 30px auto;
+  background: #003459;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 20px;
+}
+body .explore .explore1 .ex-left {
+  width: 50%;
+  position: relative;
+}
+body .explore .explore1 .ex-left .ex-rectangle {
+  position: absolute;
+  bottom: 0%;
+  z-index: 1;
+}
+body .explore .explore1 .ex-left .exxy {
+  position: absolute;
+  bottom: 0%;
+  z-index: 20;
+}
+body .explore .explore1 .ex-right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  position: relative;
+  z-index: 20;
+}
+body .explore .explore1 .ex-right .showcase88 {
+  position: absolute;
+  top: -1%;
+  right: -1%;
+  z-index: -1;
+}
+body .explore .explore1 .ex-right h1 {
+  color: #002A48;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 68px;
+  font-family: svn;
+  z-index: 10;
+  text-align: right;
+}
+body .explore .explore1 .ex-right h1 span {
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+  font-family: svn;
+  z-index: 10;
+  font-size: 2.5;
+}
+body .explore .explore1 .ex-right p {
+  color: #242B33;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: svn;
+  padding: 15px 0px;
+  text-align: right;
+}
+body .explore .explore1 .ex-right .header-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 5px;
+}
+body .explore .explore1 .ex-right .header-button .btn1 {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  padding: 14px, 28px, 10px, 28px;
+  gap: 10px;
+  border: 1.5px solid #003459;
+  background: transparent;
+}
+body .explore .explore1 .ex-right .header-button .btn1 a {
+  text-decoration: none;
+  color: #003459;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+body .explore .explore1 .ex-right .header-button .btn1 a .fa-circle-play {
+  font-size: 18px;
+  margin-left: 5px;
+}
+body .explore .explore1 .ex-right .header-button .btn2 {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  padding: 14px, 28px, 10px, 28px;
+  gap: 8px;
+  border: 1.5px solid #003459;
+  background: #003459;
+}
+body .explore .explore1 .ex-right .header-button .btn2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+body .explore .explore1 .ex-right .header-button .btn2 a .fa-circle-play {
+  font-size: 18px;
+}/*# sourceMappingURL=kashflar_.css.map */
